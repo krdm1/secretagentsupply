@@ -14,5 +14,27 @@ header {
   display: inline-block;
   background-color: black;
   color: white;
+}
+/* Product Section */
+.container .forsale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
 
+.forsale figure {
+  border: 1px solid black;
+}
+.forsale img {
+  width: 30%
+  height: 9rem;
+  padding: 2rem 0;
+}
+.forsale figcaption {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
 }
