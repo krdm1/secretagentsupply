@@ -31,6 +31,7 @@ header {
   background-position: center;
   background-size: cover;
 }
+
 .content {
   background-color: black;
   width: 20rem;
@@ -65,6 +66,7 @@ li {
   display: inline-block;
   padding: 0.75rem 2rem;
 }
+
 .navigation h1 {
   display: none;
 }
@@ -102,6 +104,27 @@ figure {
   text-align: center;
 }
 
+/*location and hours */
+.shopinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 3rem 0;
+}
+
+.locs, .hours {
+  width: 35%;
+  min-width:
+}
+
+.locs h3, .hours h3 {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -113,9 +136,42 @@ footer {
 /* tablet view */
 @media only screen and (max-width: 1024px) {
 
+
 }
 
 /* mobile view */
 @media only screen and (max-width: 470px) {
+
+  /*Banner Section on mobile*/
+  .banner {
+    height: 15rem;
+  }
+  .content {
+    background-color: black;
+    background-size:
+    position: relative;
+    top: 10rem;
+    padding: 2rem 3rem;
+  }
+  .content h3{
+    font-size: .77rem;
+  }
+  .content h1 {
+    font-size: 1rem;
+  }
+/* navigation bar */
+  .navigation h1 {
+    display: inline;
+  }
+  .ul {
+    display: hide;
+  }
+  .gallery {
+    flex-direction: column;
+  }
+
+  .shopinfo {
+    flex-direction: column;
+  }
 
 }
