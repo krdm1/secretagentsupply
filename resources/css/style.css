@@ -1,3 +1,18 @@
 html {
   font-size: 18px;
 }
+body {
+  font-family: helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: inline-block;
+  background-color: black;
+  color: white;
+
+}
