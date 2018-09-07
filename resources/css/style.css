@@ -180,14 +180,6 @@ footer {
     display: none;
   }
 
-  .gallery {
-    flex-direction: column;
-  }
-
-  .info {
-    flex-direction: column;
-  }
-
 /*product gallery*/
   .gallery {
     flex-direction: column;
@@ -197,6 +189,7 @@ footer {
     width: 90%;
   }
 
+/* shop hours and location */
   .info {
     flex-direction: column;
     justify-content: center;
